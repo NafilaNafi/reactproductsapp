@@ -41,10 +41,12 @@ export default class ResponsiveCart extends Component {
                                   <button
                                     data-item-id={node.id}
                                     data-item-price={node.price}
-                                    data-item-url=""
+                                    data-item-url="https://iscriptiotech.netlify.com/"
                                     data-item-image={node.image.fixed.src}
                                     data-item-name={node.title}
-                                    className="btn btn-warning snipcart-add-item">Buy Now
+                                    className="btn btn-warning snipcart-add-item"
+                                  >
+                                    Buy Now
                                   </button>
                                 </div>
                               </div>
