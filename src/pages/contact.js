@@ -5,28 +5,27 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroSection from "../components/Reuseable/HeroSection"
 import Infoblock from "../components/Reuseable/Infoblock"
-import Dualinfoblock from "../components/Reuseable/Dualinfoblock"
-import Teamservice from "../components/About/Teamservice"
+import Contact from "../components/Contact/contact"
 
-const AboutPage = ({ data }) => (
+const ContactPage = ({ data }) => (
     <Layout>
         <SEO title="Home" />
 
         <HeroSection
             img={data.img.childImageSharp.fluid}
-            title="About Iscriptio"
+            title="Contact Us"
             subtitle=""
             heroclass="about-background"
         />
-        <Dualinfoblock heading="Why We Are" />
-        <Infoblock heading="About Vision" />
-        <Teamservice />
+        <Infoblock heading="How can we help?" />
+        <Contact />
+        
     </Layout>
 )
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "about.png" }) {
+    img: file(relativePath: { eq: "contact.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG
@@ -36,4 +35,4 @@ export const query = graphql`
   }
 `
 
-export default AboutPage
+export default ContactPage
