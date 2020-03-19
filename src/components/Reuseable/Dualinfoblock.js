@@ -40,7 +40,7 @@ export default function Dualinfoblock({heading}) {
                     Over the years of experience, we gained reputation in web
                     design services, seo services, web development and mobile
                     app development services. We take pride in saying that we
-                    have completed more than 1200+ projects till date.
+                    have completed more than 100+ projects till date.
                   </p>
                   <a href="#" className="btn btn-warning btn-block">
                     {heading}
