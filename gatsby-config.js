@@ -4,9 +4,9 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `CHENNAI DESIGNERS `,
-    description: `We Are Specialist in Ladies Tailoring. WE DESIGN YOU CUSTOMIZE`,
-    author: `@Chennai Designers`,
+    title: `Iscriptio Technologies `,
+    description: `ISCRIPTIO EXPERTS IN WEB DESIGN AND DEVELOPMENT. WE DESIGN YOU CUSTOMIZE`,
+    author: `@Iscriptio Technologies`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -40,12 +40,12 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-snipcart',
+      resolve: "gatsby-plugin-snipcart",
       options: {
         apiKey: process.env.SNIPCART_KEY,
-        autopop: true
-      }
-    }
+        autopop: true,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
