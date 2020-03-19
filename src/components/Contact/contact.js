@@ -6,7 +6,7 @@ export default function Contact() {
       <section className="py-3">
         <Heading title="Contact Us" />
         <div className="col-10 col-sm-8 mx-auto">
-                <form action="https://formspree.io/nafila@outlook.com" method="post">
+          <form action="https://formspree.io/nafila@outlook.com" method="POST">
             <div className="form-group">
               <input
                 type="text"
@@ -21,7 +21,7 @@ export default function Contact() {
                 type="email"
                 name="email"
                 id="email"
-                placeholder="Your Email"
+                placeholder="Your Eamil"
                 className="form-control"
               />
             </div>
@@ -43,7 +43,9 @@ export default function Contact() {
                 className="form-control"
               />
             </div>
-            <button type="submit" className="btn btn-outline-info btn-block">Submit</button>
+            <button type="submit" className="btn btn-outline-info btn-block">
+              Submit
+            </button>
           </form>
         </div>
       </section>

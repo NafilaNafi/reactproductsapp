@@ -17,12 +17,12 @@ export default class Navbar extends Component {
                        url: '/about',
                    }, {
                        id: 3,
-                       text: "Services",
-                       url: '/Services',
+                       text: "Service",
+                       url: '/service',
                    }, {
                        id: 4,
                        text: "Contact",
-                       url: '/Contact',
+                       url: '/contact',
                    }]
                  }
                  myToggler = () => {

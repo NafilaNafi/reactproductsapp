@@ -19,7 +19,7 @@ const IndexPage = ({ data }) => (
     />
     <Infoblock heading="About Us" />
     <Responsivecart products={data.products} />
-    <Dualinfoblock heading="Why Us?" />
+    <Dualinfoblock heading="Our Team" />
   </Layout>
 )
 
