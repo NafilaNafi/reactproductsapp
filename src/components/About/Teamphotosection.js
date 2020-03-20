@@ -11,11 +11,28 @@ export default function Teamphotosection() {
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Samartha</h5>
+              <h5 class="card-title">Samartha - GRAPHIC DESIGNER</h5>
               <p class="card-text">
-                We make more crowd dive into your business with unique and
-                captivating designs. Inhere we make the best marketing materials
-                for any business.
+                 I Specialize in Graphic Designing, We make more crowd dive into your business with unique and
+               captivating designs. Inhere we make the best marketing materials
+               for any business.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.pexels.com/photos/3966542/pexels-photo-3966542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Nafi - FULLSTACK/MEANSTACK DEVELOPER</h5>
+              <p class="card-text">
+                A freelance Fullstack & Meanstack Developer specialized in both front-end and
+                back-end.
               </p>
               <p class="card-text">
                 <small class="text-muted">Last updated 3 mins ago</small>
@@ -29,11 +46,11 @@ export default function Teamphotosection() {
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Vitorino</h5>
+              <h5 class="card-title">Vitorino - MOBILE-APP DEVELOPER</h5>
               <p class="card-text">
-                Get the best website for your business, products and services
-                with trending features. We do customization and website
-                revamping in a cost efficient manner.
+               I Specialize in Mobile App Developement, Get the best mobile app done for your business, products and services
+               with trending features. We do customization and website
+               revamping in a cost efficient manner.
               </p>
               <p class="card-text">
                 <small class="text-muted">Last updated 3 mins ago</small>
@@ -47,11 +64,10 @@ export default function Teamphotosection() {
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Wilson</h5>
+              <h5 class="card-title">Wilson - UI/UX DESIGNER</h5>
               <p class="card-text">
-                Developers at iscriptio Technologies are skilled and experience in using
-                the latest website building technologies to give out the best
-                performing site.
+                I Specialize in UI/UX Design, Responsive Web Design, and Visual Development.
+                I believe No-Code solutions are the future of work, allowing teams to work faster,and place their focus on the design,accessibility,and execution of products.
               </p>
               <p class="card-text">
                 <small class="text-muted">Last updated 3 mins ago</small>
